@@ -1,0 +1,28 @@
+/* styles.css */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2; /* Light gray background */
+}
+
+.nav-buttons a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333; /* Dark gray text */
+}
+
+.social-icons a {
+    margin-left: 20px;
+}
+
+.social-icons img {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+}
+
+a {
+    text-decoration: none !important;
+  }

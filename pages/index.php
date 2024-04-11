@@ -1,3 +1,5 @@
+<?php include 'header.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,10 +15,10 @@
 <header>
     <h1>Hi, I'm Nuray</h1>
 
-    <p>write me code for my header.php where i want three icons that have links: linkedin, github, and email that are all the same shade of purple to the right, and to the left i want three buttons that make up the nav bar: Home, Projects & Experiences, and Timeline. They link to different vertical positions on the home page called index.php</p>
+
 </header>
 
-<!-- FIX -->
+
 <form method="get" action="nuray_y_ozden_resume.pdf">
    <button type="submit">Download!</button>
 </form>
