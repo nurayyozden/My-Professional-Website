@@ -17,7 +17,9 @@
 
 <body>
 
-<div class="container">
+
+
+<div class="home-content">
 
     <div class="profile-pic">
         <img src="public/uploads/images/profile_pic.jpeg" alt="Nuray image">
@@ -33,30 +35,31 @@
 
 
 
-<!-- Projects and Experiences section -->
-<div id="projects-anchor">
 
-    <a href="/projects" class="projects-link">
+<div class="projects-and-experiences" id="projects-anchor">
+
+    <a href="/projects" class="image-link">
             <img src="public/uploads/images/projects.jpeg" alt="Projects">
             <div class="overlay">Projects</div>
     </a>
-    <a href="/experiences" class="experiences-link">
+<a href="/experiences" class="image-link">
             <img src="public/uploads/images/experiences.jpeg" alt="Experiences">
             <div class="overlay">Experiences</div>
     </a>
-
-
-  </div>
-
-
 
 
 </div>
 
 
 
+
+
+
+
+
 <!-- Timeline section -->
 <div id="timeline-anchor"></div>
+
 
 
 
