@@ -17,26 +17,41 @@
 
 <body>
 
-<h1>Hi, I'm Nuray</h1>
+<div class="container">
 
-<!-- <a href="nuray_y_ozden_resume.pdf" download>
-  <button class="download-button">Download Resume</button>
-</a> -->
+    <div class="profile-pic">
+        <img src="public/uploads/images/profile_pic.jpeg" alt="Nuray image">
+    </div>
 
-<a href="nuray_y_ozden_resume.pdf" download="nuray_y_ozden_resume.pdf" class="download-link">Download Resume</a>
+    <div class="content">
+        <h1>Hi, I'm Nuray</h1>
+        <a href="nuray_y_ozden_resume.pdf" download="nuray_y_ozden_resume.pdf" class="download-link">Download Resume</a>
+    </div>
 
-
-
-
-
-
-
+</div>
 
 
 
 
 <!-- Projects and Experiences section -->
-<div id="projects-anchor"></div>
+<div id="projects-anchor">
+
+    <a href="/projects" class="projects-link">
+            <img src="public/uploads/images/projects.jpeg" alt="Projects">
+            <div class="overlay">Projects</div>
+    </a>
+    <a href="/experiences" class="experiences-link">
+            <img src="public/uploads/images/experiences.jpeg" alt="Experiences">
+            <div class="overlay">Experiences</div>
+    </a>
+
+
+  </div>
+
+
+
+
+</div>
 
 
 

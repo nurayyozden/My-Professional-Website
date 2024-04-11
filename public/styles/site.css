@@ -6,7 +6,7 @@ html {
 
 body {
     padding: 20px;
-    padding-top:80px;
+    /* padding-top:200px; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
@@ -26,6 +26,10 @@ body {
     margin-right: 40px;
     text-decoration: none;
     color: #333; /* Dark gray text */
+}
+
+.nav-buttons a:hover {
+    color: #2a45de; /* Purple text color on hover */
 }
 
 .social-icons a {
@@ -52,22 +56,62 @@ a {
     border-radius: 20px; /* Oval shape */
     text-decoration: none; /* Remove default underline */
     display: inline-block; /* Make link display inline */
-  }
+    text-align: center; /* Center text */
+    max-width: 70px;  /* Remove max-width */
+}
 
   .download-link:hover {
     background-color: #001aad; /* Darker purple on hover */
   }
 
-
+/* nav bar that stays */
   .sticky-header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    /* z-index: 1000; */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+}
+
+
+/* home page formatting */
+
+
+body {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Set full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    max-width: 800px; /* Set maximum width of container */
+    padding: 20px; /* Add padding for spacing */
+}
+
+
+.profile-pic {
+
+    margin-right: 50px; /* Adjust spacing between image and content */
+    border: 6px solid #2a45de; /* Add purple border */
+    border-radius: 15px; /* Round the corners */
+    overflow: hidden;
+}
+
+.profile-pic img {
+    display: block; /* Ensure the image fills the container */
+
+}
+
+
+.content {
+    text-align: center; /* Center text */
 }
