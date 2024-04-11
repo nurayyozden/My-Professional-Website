@@ -15,8 +15,8 @@
 
 const ROUTES = array(
   '/' => 'pages/index.php',
-  // '/meal' => 'pages/meal.php',
-  // '/dinner-form' => 'pages/dinner-form.php'
+  '/projects' => 'pages/projects.php',
+  '/experiences' => 'pages/experiences.php'
 );
 
 function match_static($uri)
