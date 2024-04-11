@@ -28,8 +28,8 @@
 
 <div class="nav-buttons">
         <a href="/">Home</a>
-        <a href="/#projects-anchor">Projects & Experiences</a>
-        <a href="/">Timeline</a>
+        <a href="#projects-anchor">Projects & Experiences</a>
+        <a href="#timeline-anchor">Timeline</a>
 </div>
 
 
@@ -38,7 +38,5 @@
 </header>
 
 
-<script src="/scripts/jquery-3.6.1.js"></script>
-<script src="/scripts/scroll.js"></script>
 </body>
 </html>

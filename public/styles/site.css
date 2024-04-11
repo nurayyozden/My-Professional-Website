@@ -1,11 +1,33 @@
-/* styles.css */
+
+html {
+    background-color: #cef3ff;
+    scroll-behavior: smooth;
+   }
+
+body {
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+#projects-anchor {
+    margin-top: 100%;
+    padding-bottom: 25%; /* CHANGE */
+}
+
+#timeline-anchor {
+    margin-top: 100%;
+    padding-bottom: 25%; /* CHANGE */
+}
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #f2f2f2; /* Light gray background */
+    /* background-color: #f2f2f2; Light gray background */
 }
 
 .nav-buttons a {
@@ -15,8 +37,10 @@ header {
 }
 
 .social-icons a {
-    margin-left: 20px;
+    margin-left: 12px;
 }
+
+/* after a certain point the icons wrap - FIX */
 
 .social-icons img {
     width: 30px; /* Adjust size as needed */
@@ -25,4 +49,19 @@ header {
 
 a {
     text-decoration: none !important;
+    color: black;
+  }
+
+/* download button */
+.download-link {
+    background-color: #2a45de; /* Purple background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Adjust padding */
+    border-radius: 20px; /* Oval shape */
+    text-decoration: none; /* Remove default underline */
+    display: inline-block; /* Make link display inline */
+  }
+
+  .download-link:hover {
+    background-color: #001aad; /* Darker purple on hover */
   }

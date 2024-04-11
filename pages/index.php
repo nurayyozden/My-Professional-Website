@@ -1,6 +1,9 @@
 <?php include 'header.php'; ?>
 
 <!DOCTYPE html>
+
+
+
 <html lang="en">
 
 
@@ -14,16 +17,14 @@
 
 <body>
 
-<header>
-    <h1>Hi, I'm Nuray</h1>
+<h1>Hi, I'm Nuray</h1>
 
+<!-- <a href="nuray_y_ozden_resume.pdf" download>
+  <button class="download-button">Download Resume</button>
+</a> -->
 
-</header>
+<a href="nuray_y_ozden_resume.pdf" download="nuray_y_ozden_resume.pdf" class="download-link">Download Resume</a>
 
-
-<form method="get" action="nuray_y_ozden_resume.pdf">
-   <button type="submit">Download!</button>
-</form>
 
 
 
@@ -35,14 +36,14 @@
 
 
 <!-- Projects and Experiences section -->
-
 <div id="projects-anchor"></div>
 
 
 
 <!-- Timeline section -->
+<div id="timeline-anchor"></div>
 
-<script src="/scripts/jquery-3.6.1.js"></script>
-<script src="/scripts/scroll.js"></script>
+
+
 </body>
 </html>
