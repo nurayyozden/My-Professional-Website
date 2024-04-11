@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Header</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="public/styles/site.css" />
+
 </head>
 <body>
 
@@ -25,12 +26,19 @@
     </a>
 </div>
 
+<div class="nav-buttons">
+        <a href="/">Home</a>
+        <a href="/#projects-anchor">Projects & Experiences</a>
+        <a href="/">Timeline</a>
+</div>
+
 
 
 
 </header>
 
 
-
+<script src="/scripts/jquery-3.6.1.js"></script>
+<script src="/scripts/scroll.js"></script>
 </body>
 </html>
