@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<header>
+<header class="sticky-header">
 
 <div class="social-icons">
     <a href="https://www.linkedin.com/in/nuray-ozden-247ab41b0/" alt="LinkedIn">

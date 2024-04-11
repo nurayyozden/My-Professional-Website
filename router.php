@@ -14,9 +14,9 @@
 // $is_admin = is_user_member_of($db, ADMIN_GROUP_ID);
 
 const ROUTES = array(
-  '/' => 'pages/index.php'
-//   '/meal' => 'pages/meal.php',
-//   '/dinner-form' => 'pages/dinner-form.php'
+  '/' => 'pages/home.php',
+  // '/meal' => 'pages/meal.php',
+  // '/dinner-form' => 'pages/dinner-form.php'
 );
 
 function match_static($uri)
