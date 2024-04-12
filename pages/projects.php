@@ -17,14 +17,17 @@ FROM projects";
 
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <!-- Link to your CSS file -->
-    <link rel="stylesheet" href="public/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="public/styles/site.css" />
+  <title>Projects</title>
+
 </head>
-<body>
+
+<body class="body-pe">
     <!-- Header -->
     <header>
         <a href="/" class="back-button">Back</a>
@@ -34,10 +37,6 @@ FROM projects";
     <!-- Main content -->
     <div class="projects-container">
 
-
-
-
-  <div class="posts">
     <?php
     // final query with filters
 
@@ -49,9 +48,6 @@ FROM projects";
 
     $records = $result->fetchAll();
 
-
-//     $sql_select_query = "SELECT projects.id AS 'projects.id', projects.title AS 'projects.title', projects.time as 'projects.time'
-// FROM projects";
 
     foreach ($records as $record) { ?>
             <div class="project-box">
