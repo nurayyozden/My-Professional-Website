@@ -9,7 +9,7 @@ CREATE TABLE projects (
     extra_content TEXT,
     PRIMARY KEY(id AUTOINCREMENT)
 
-)
+);
 
 CREATE TABLE experiences (
     id INTEGER NOT NULL UNIQUE,
@@ -22,17 +22,4 @@ CREATE TABLE experiences (
     extra_content TEXT,
     PRIMARY KEY(id AUTOINCREMENT)
 
-)
-
-CREATE TABLE posts (
- 	id INTEGER NOT NULL UNIQUE,
- 	name TEXT NOT NULL,
-    time INTEGER,
-    difficulty INTEGER NOT NULL,
-    ingredients TEXT,
-    social_media TEXT,
-    file_name TEXT NOT NULL,
-    file_ext TEXT NOT NULL,
-    source TEXT,
-
- );
+);

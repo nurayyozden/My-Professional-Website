@@ -1,17 +1,10 @@
 <?php
 // include_once('includes/init.php');
-// include_once('includes/db.php');
+include_once('includes/db.php');
 
 // open database
-//$db = init_sqlite_db('db/site.sqlite', 'db/init.sql');
+$db = init_sqlite_db('db/site.sqlite', 'db/init.sql');
 
-// check if logged in
-// include_once("includes/sessions.php");
-// $session_messages = array();
-// process_session_params($db, $session_messages);
-
-// define('ADMIN_GROUP_ID', 1); // see init.sql
-// $is_admin = is_user_member_of($db, ADMIN_GROUP_ID);
 
 const ROUTES = array(
   '/' => 'pages/index.php',
