@@ -1,3 +1,21 @@
+<?php
+
+// tags by ids in the types table
+$tag_ids = exec_sql_query(
+  $db,
+  "SELECT types.id AS 'types.id' FROM types;")->fetchAll();
+
+
+$filter_param = $_GET['filter'] ?? NULL; // untrusted
+
+// original SQL query with no filters
+$sql_select_clause = "SELECT posts.id AS 'posts.id', posts.name AS 'posts.name', posts.file_ext as 'posts.file_ext'
+FROM posts";
+$sql_where_clause = ''; // No order by default
+
+?>
+
+
 <?php include 'header.php'; ?>
 
 <!DOCTYPE html>
@@ -35,8 +53,8 @@
 
 
 
-
-<div class="projects-and-experiences" id="projects-anchor">
+<div id="projects-anchor"></div>
+<div class="projects-and-experiences" >
 
     <a href="/projects" class="image-link">
             <img src="public/uploads/images/projects.jpeg" alt="Projects">

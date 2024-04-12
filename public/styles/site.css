@@ -1,6 +1,6 @@
 
 html {
-    background-color: #cef3ff;
+    background-color: #c4def6;
     scroll-behavior: smooth;
    }
 
@@ -15,10 +15,7 @@ body {
     margin: 0; /* Remove default margin */
 
 }
-/*
-#projects-anchor {
-    margin-top: 100%;
-    padding-bottom: 25%; /* CHANGE */
+
 
 
 #timeline-anchor {
@@ -58,7 +55,7 @@ a {
   }
 
 /* download button */
-.download-link {
+.download-link, .back-button {
     background-color: #2a45de; /* Purple background color */
     color: white; /* White text color */
     padding: 10px 20px; /* Adjust padding */
@@ -69,7 +66,7 @@ a {
     max-width: 70px;  /* Remove max-width */
 }
 
-  .download-link:hover {
+  .download-link:hover, .back-button:hover {
     background-color: #001aad; /* Darker purple on hover */
   }
 
