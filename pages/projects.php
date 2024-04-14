@@ -1,12 +1,5 @@
 <?php
 
-// getting projects boxes
-// $proj_ids = exec_sql_query(
-//   $db,
-//   "SELECT projects.id AS 'projects.id' FROM projects;")->fetchAll();
-
-
-// $filter_param = $_GET['filter'] ?? NULL; // untrusted
 
 // original SQL query with no filters
 $sql_select_query = "SELECT projects.id AS 'projects.id', projects.title AS 'projects.title', projects.time as 'projects.time', projects.cover_image AS 'projects.cover_image'
@@ -53,7 +46,7 @@ FROM projects";
             <div class="project-box">
                 <h4 class="project-title"><?php echo htmlspecialchars($record["projects.title"]); ?></h4>
                 <p class="project-time"><?php echo htmlspecialchars($record['projects.time']); ?></p>
-                <a href="/project_spec?<?php echo http_build_query(array(
+                <a href="/project-spec?<?php echo http_build_query(array(
                     'id' => $record['projects.id'])); ?>">
                 <?php $image_location = '/public/uploads/images/' . $record['projects.cover_image'];?>
                 <img class="cover-image" src="<?php echo htmlspecialchars($image_location); ?>"

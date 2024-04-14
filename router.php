@@ -9,7 +9,8 @@ $db = init_sqlite_db('db/site.sqlite', 'db/init.sql');
 const ROUTES = array(
   '/' => 'pages/index.php',
   '/projects' => 'pages/projects.php',
-  '/experiences' => 'pages/experiences.php'
+  '/experiences' => 'pages/experiences.php',
+  '/project-spec' => 'pages/project-spec.php'
 );
 
 function match_static($uri)
