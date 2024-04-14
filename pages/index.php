@@ -48,15 +48,11 @@
 
 </div>
 
-
-
-
-
-
-
-
 <!-- Timeline section -->
 <div id="timeline-anchor"></div>
+
+  <!-- Add more timeline items as needed -->
+
 
 
 
