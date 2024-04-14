@@ -160,13 +160,13 @@ a {
 
 /* projects page */
 
-.projects-container {
+.pe-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.project-box {
+.pe-box {
     position: relative;
     margin: 10px;
     width: calc(25% - 20px); /* Adjust width for 4 boxes per row with margin */
@@ -175,7 +175,7 @@ a {
     overflow: hidden; /* Hide overflow content (the image) */
 }
 
-.project-overlay {
+.pe-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -191,7 +191,7 @@ a {
     transition: opacity 0.3s ease;
 }
 
-.project-box:hover .project-overlay {
+.pe-box:hover .pe-overlay {
     opacity: 1; /* Show overlay on hover */
 }
 
@@ -206,7 +206,7 @@ a {
     transition: opacity 0.3s ease;
 }
 
-.project-box:hover .cover-image {
+.pe-box:hover .cover-image {
     opacity: 0.4; /* Show image on hover */
 }
 

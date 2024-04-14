@@ -31,13 +31,18 @@ $project = $project->fetchAll();
 
 <body class="body-pe">
 
+    <!-- Header -->
+    <header>
+        <a href="/" class="back-button">Back</a>
+    </header>
+
 <?php foreach ($project as $project) { ?>
     <h2><?php echo htmlspecialchars($project['projects.title']); ?></h2>
     <h4><?php echo htmlspecialchars($project['projects.company']); ?></h4>
     <h5><?php echo htmlspecialchars($project['projects.time']); ?></h5>
     <?php if ($project["projects.second_image"] != null) { ?>
     <?php $image_location = '/public/uploads/images/' . $project['projects.second_image'];?>
-    <img class=project-second-image src="<?php echo htmlspecialchars($image_location); ?>" alt=<?php echo htmlspecialchars($project["projects.second_image"]); ?>> <?php } ?>
+    <img class=second-image src="<?php echo htmlspecialchars($image_location); ?>" alt=<?php echo htmlspecialchars($project["projects.second_image"]); ?>> <?php } ?>
     <p><?php echo htmlspecialchars($project['projects.description']); ?></p>
 
 <?php } ?>

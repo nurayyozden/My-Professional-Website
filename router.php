@@ -10,7 +10,8 @@ const ROUTES = array(
   '/' => 'pages/index.php',
   '/projects' => 'pages/projects.php',
   '/experiences' => 'pages/experiences.php',
-  '/project-spec' => 'pages/project-spec.php'
+  '/project-spec' => 'pages/project-spec.php',
+  '/exp-spec' => 'pages/exp-spec.php'
 );
 
 function match_static($uri)

@@ -28,3 +28,8 @@ CREATE TABLE experiences (
     PRIMARY KEY(id AUTOINCREMENT)
 
 );
+
+INSERT INTO
+experiences (title, company, time, cover_image, second_image, description)
+VALUES
+('Business Analyst Intern', 'Cox Automotive', 'Summer 2023', 'cox_logo.png', 'cox_pres.jpeg','example description');

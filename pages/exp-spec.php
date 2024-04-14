@@ -1,19 +1,19 @@
 <?php
 $id = $_GET['id'];
 
-// get the project data from projects table
+// get the experience data from experiences table
 
-$project = exec_sql_query(
+$exp = exec_sql_query(
   $db,
-  "SELECT projects.id AS 'projects.id', projects.title AS 'projects.title', projects.company AS 'projects.company', projects.time AS 'projects.time', projects.second_image AS 'projects.second_image', projects.description AS 'projects.description', projects.extra_content as 'projects.extra_content'
-  FROM projects
-  WHERE projects.id = :project_id",
+  "SELECT experiences.id AS 'experiences.id', experiences.title AS 'experiences.title', experiences.company AS 'experiences.company', experiences.time AS 'experiences.time', experiences.second_image AS 'experiences.second_image', experiences.description AS 'experiences.description', experiences.extra_content as 'experiences.extra_content'
+  FROM experiences
+  WHERE experiences.id = :exp_id",
   array(
-      ':project_id' => $id, // tainted
+      ':exp_id' => $id, // tainted
     )
 );
 
-$project = $project->fetchAll();
+$exp = $exp->fetchAll();
 
 ?>
 
@@ -31,14 +31,18 @@ $project = $project->fetchAll();
 
 <body class="body-pe">
 
-<?php foreach ($project as $project) { ?>
-    <h2><?php echo htmlspecialchars($project['projects.title']); ?></h2>
-    <h4><?php echo htmlspecialchars($project['projects.company']); ?></h4>
-    <h5><?php echo htmlspecialchars($project['projects.time']); ?></h5>
-    <?php if ($project["projects.second_image"] != null) { ?>
-    <?php $image_location = '/public/uploads/images/' . $project['projects.second_image'];?>
-    <img class=project-second-image src="<?php echo htmlspecialchars($image_location); ?>" alt=<?php echo htmlspecialchars($project["projects.second_image"]); ?>> <?php } ?>
-    <p><?php echo htmlspecialchars($project['projects.description']); ?></p>
+<header>
+        <a href="/" class="back-button">Back</a>
+    </header>
+
+<?php foreach ($exp as $exp) { ?>
+    <h2><?php echo htmlspecialchars($exp['experiences.title']); ?></h2>
+    <h4><?php echo htmlspecialchars($exp['experiences.company']); ?></h4>
+    <h5><?php echo htmlspecialchars($exp['experiences.time']); ?></h5>
+    <?php if ($exp["experiences.second_image"] != null) { ?>
+    <?php $image_location = '/public/uploads/images/' . $exp['experiences.second_image'];?>
+    <img class=second-image src="<?php echo htmlspecialchars($image_location); ?>" alt=<?php echo htmlspecialchars($exp["experiences.second_image"]); ?>> <?php } ?>
+    <p><?php echo htmlspecialchars($exp['experiences.description']); ?></p>
 
 <?php } ?>
 

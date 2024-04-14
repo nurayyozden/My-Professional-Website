@@ -28,7 +28,7 @@ FROM projects";
     </header>
 
     <!-- Main content -->
-    <div class="projects-container">
+    <div class="pe-container">
 
     <?php
     // final query with filters
@@ -43,9 +43,9 @@ FROM projects";
 
 
     foreach ($records as $record) { ?>
-            <div class="project-box">
-                <h4 class="project-title"><?php echo htmlspecialchars($record["projects.title"]); ?></h4>
-                <p class="project-time"><?php echo htmlspecialchars($record['projects.time']); ?></p>
+            <div class="pe-box">
+                <h4 class="pe-title"><?php echo htmlspecialchars($record["projects.title"]); ?></h4>
+                <p class="pe-time"><?php echo htmlspecialchars($record['projects.time']); ?></p>
                 <a href="/project-spec?<?php echo http_build_query(array(
                     'id' => $record['projects.id'])); ?>">
                 <?php $image_location = '/public/uploads/images/' . $record['projects.cover_image'];?>
