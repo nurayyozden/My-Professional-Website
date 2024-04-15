@@ -15,18 +15,12 @@ body {
 
 }
 
-/* .body-home {
-    padding-top: 200px;
-} */
 
 .body-pe {
     padding: 50px;
 }
 
-
-.timeline {
-   padding-top: 100px;
-}
+/* Nav bar CSS */
 
 .nav-buttons {
     padding-right: 20px;
@@ -36,7 +30,8 @@ body {
 .nav-buttons a {
     margin-right: 40px;
     text-decoration: none;
-    color: #333; /* Dark gray text */
+    color: #333;
+    font-size: large;
 }
 
 .nav-buttons a:hover {
@@ -47,7 +42,9 @@ body {
     margin: 10px;
 }
 
+
 /* after a certain point the icons wrap - FIX */
+
 
 .social-icons img {
     width: 30px; /* Adjust size as needed */
@@ -60,6 +57,7 @@ a {
   }
 
 /* download button */
+
 .download-link, .back-button {
     background-color: #2a45de; /* Purple background color */
     color: white; /* White text color */
@@ -76,7 +74,7 @@ a {
   }
 
 /* nav bar that stays */
-  .sticky-header {
+ /* .sticky-header {
     /* text-align: center;
     position: fixed;
     top: 0;
@@ -94,15 +92,12 @@ a {
     justify-content: space-between;
     z-index: 1000; */
 
-}
 
 .sticky-header {
     display: flex;
     justify-content: space-between;
 
 }
-
-
 
 
 /* home page formatting */
@@ -224,7 +219,16 @@ a {
 }
 
 /* Timeline css */
+
 /* Source: https://blog.bitsrc.io/how-to-create-a-timeline-with-pure-css-862ffea5b99b */
+
+.timeline {
+    padding-top: 200px;
+ }
+
+.timeline-header {
+    font-style: italic;
+}
 
 .timeline-wrapper {
     position: relative;
@@ -268,7 +272,7 @@ a {
 
   .box .box-content {
     border-radius: 5px;
-    background-color: #00b0bd;
+    background-color: #2a45de;
     width: 180px;
     position: absolute;
     left: -77px;

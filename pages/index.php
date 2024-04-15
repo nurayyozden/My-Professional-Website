@@ -49,28 +49,34 @@
 
 <!-- Timeline section -->
 
-<div class="timeline">
-<section class="timeline-wrapper">
-        <div class="middle-line"></div>
+<div id="timeline-anchor" class="timeline">
+    <h1 class="timeline-header">My Timeline</h1>
 
-        <div class="box box-top">
-            <div class="date">
-                <p>20</p>
-                <p>DEC</p>
-            </div>
-            <div class="box-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-            </div>
-        </div>
+    <section class="timeline-wrapper">
+            <div class="middle-line"></div>
 
-        <div class="box box-bottom">
-            <div class="date">
-                <p>11</p>
-                <p>AUG</p>
+            <div class="box box-top">
+                <div class="date">
+                    <p>20</p>
+                    <p>DEC</p>
+                </div>
+                <div class="box-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                </div>
             </div>
-            <div class="box-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+
+            <div class="box box-bottom">
+                <div class="date">
+                    <p>11</p>
+                    <p>AUG</p>
+                </div>
+                <div class="box-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                </div>
             </div>
-        </div>
-    </div>
-    </section>
+
+        </section>
+</div>
+
+</body>
+</html>
