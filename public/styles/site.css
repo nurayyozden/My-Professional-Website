@@ -11,12 +11,13 @@ body {
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
     height: 100vh; /* Set full height of the viewport */
-    margin: 0; /* Remove default margin */
+    margin-bottom: 50px;
 
 }
 
 .body-home {
     padding-top: 200px;
+    margin-bottom: 100px;
 }
 
 .body-pe {
@@ -24,10 +25,8 @@ body {
 }
 
 
-
-#timeline-anchor {
-    margin-top: 100%;
-    padding-bottom: 25%; /* CHANGE */
+.timeline {
+   padding-top: 100px;
 }
 
 .nav-buttons {
@@ -209,5 +208,3 @@ a {
 .pe-box:hover .cover-image {
     opacity: 0.4; /* Show image on hover */
 }
-
-/* timeline formatting */
