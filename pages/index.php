@@ -24,6 +24,7 @@
 
     <div class="content">
         <h1>Hi, I'm Nuray</h1>
+        <p>I'm a senior at Cornell University</p>
         <a href="nuray_y_ozden_resume.pdf" download="nuray_y_ozden_resume.pdf" class="download-link">Download Resume</a>
     </div>
 
@@ -32,9 +33,9 @@
 
 
 
-<div id="projects-anchor"></div>
+<div class="pe-section" id="projects-anchor">
+<h1>My Projects and Experiences</h1>
 <div class="projects-and-experiences" >
-
     <a href="/projects" class="image-link">
             <img class="home-img" src="public/uploads/images/projects.jpeg" alt="Projects">
             <div class="overlay">Projects</div>
@@ -45,6 +46,7 @@
     </a>
 
 
+</div>
 </div>
 
 <!-- Timeline section -->
