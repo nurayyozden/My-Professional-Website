@@ -34,25 +34,34 @@
 
 
 <div class="pe-section" id="projects-anchor">
-<h1>My Projects and Experiences</h1>
-<div class="projects-and-experiences" >
-    <a href="/projects" class="image-link">
-            <img class="home-img" src="public/uploads/images/projects.jpeg" alt="Projects">
-            <div class="overlay">Projects</div>
-    </a>
-<a href="/experiences" class="image-link">
-            <img class="home-img" src="public/uploads/images/experiences.jpeg" alt="Experiences">
-            <div class="overlay">Experiences</div>
-    </a>
+    <h1 class="home-title-header">My Projects and Experiences</h1>
+    <div class="projects-and-experiences" >
+        <a href="/projects" class="image-link">
+                <img class="home-img" src="public/uploads/images/projects.jpeg" alt="Projects">
+                <div class="overlay">Projects</div>
+        </a>
+        <a href="/experiences" class="image-link">
+                <img class="home-img" src="public/uploads/images/experiences.jpeg" alt="Experiences">
+                <div class="overlay">Experiences</div>
+        </a>
 
 
+    </div>
 </div>
+
+<!-- Skills section -->
+<div class="skills-section" id="skills-anchor">
+    <h1 class="home-title-header">Here are a few of my skills</h1>
+
+
+
+
 </div>
 
 <!-- Timeline section -->
 
 <div id="timeline-anchor" class="timeline">
-    <h1 class="timeline-header">My Timeline</h1>
+    <h1 class="home-title-header">My Timeline</h1>
 
     <section class="timeline-wrapper">
             <div class="middle-line"></div>

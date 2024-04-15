@@ -15,6 +15,7 @@ body {
 
 }
 
+
 .body-pe {
     padding: 50px;
 }
@@ -220,6 +221,11 @@ a {
     opacity: 0.4; /* Show image on hover */
 }
 
+/* Skills section home page */
+.skills-section {
+    padding-top: 100px;
+}
+
 /* Timeline css */
 
 /* Source: https://blog.bitsrc.io/how-to-create-a-timeline-with-pure-css-862ffea5b99b */
@@ -228,7 +234,7 @@ a {
     padding-top: 200px;
  }
 
-.timeline-header {
+.home-title-header {
     font-style: italic;
 }
 

@@ -28,6 +28,7 @@
 <div class="nav-buttons">
         <a href="/">Home</a>
         <a href="#projects-anchor">Projects & Experiences</a>
+        <a href="#skills-anchor">Skills</a>
         <a href="#timeline-anchor">Timeline</a>
 </div>
 
