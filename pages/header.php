@@ -7,7 +7,6 @@
     <link rel="stylesheet" type="text/css" href="public/styles/site.css" />
 
 </head>
-<body>
 
 <header class="sticky-header">
 
@@ -38,5 +37,4 @@
 </header>
 
 
-</body>
 </html>

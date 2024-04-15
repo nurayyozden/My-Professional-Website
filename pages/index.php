@@ -1,4 +1,3 @@
-
 <?php include 'header.php'; ?>
 
 <!DOCTYPE html>
@@ -50,6 +49,28 @@
 
 <!-- Timeline section -->
 
+<div class="timeline">
+<section class="timeline-wrapper">
+        <div class="middle-line"></div>
 
-</body>
-</html>
+        <div class="box box-top">
+            <div class="date">
+                <p>20</p>
+                <p>DEC</p>
+            </div>
+            <div class="box-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            </div>
+        </div>
+
+        <div class="box box-bottom">
+            <div class="date">
+                <p>11</p>
+                <p>AUG</p>
+            </div>
+            <div class="box-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            </div>
+        </div>
+    </div>
+    </section>
