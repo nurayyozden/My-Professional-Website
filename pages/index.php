@@ -54,8 +54,6 @@
     <h1 class="home-title-header">Here are a few of my skills</h1>
 
 
-
-
 </div> -->
 
 <!-- Timeline section -->
@@ -132,7 +130,7 @@
                     <p>AUG</p>
                 </div>
                 <div class="box-content">
-                    <p>Began my undergraduate studies at Cornell University.</p>
+                    <p>Began my undergraduate studies at Cornell University's College of Engineering.</p>
                 </div>
             </div>
 
