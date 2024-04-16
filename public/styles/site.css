@@ -1,0 +1,300 @@
+
+html {
+    background-color: #c4def6;
+    scroll-behavior: smooth;
+   }
+
+body {
+    /* padding-top:200px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        /* display: flex; */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    /* padding: 20px; */
+    margin: 20px;
+
+
+}
+
+
+.body-pe {
+    padding: 50px;
+}
+
+/* Nav bar CSS */
+
+.nav-buttons {
+    padding-right: 20px;
+}
+
+
+.nav-buttons a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #333;
+    font-size: large;
+}
+
+.nav-buttons a:hover {
+    color: #2a45de; /* Purple text color on hover */
+}
+
+.social-icons a {
+    margin: 10px;
+}
+
+
+/* after a certain point the icons wrap - FIX */
+
+
+.social-icons img {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+  }
+
+/* download button */
+
+.download-link, .back-button {
+    background-color: #2a45de; /* Purple background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Adjust padding */
+    border-radius: 20px; /* Oval shape */
+    text-decoration: none; /* Remove default underline */
+    display: inline-block; /* Make link display inline */
+    text-align: center; /* Center text */
+    max-width: 70px;  /* Remove max-width */
+}
+
+  .download-link:hover, .back-button:hover {
+    background-color: #001aad; /* Darker purple on hover */
+  }
+
+/* nav bar that stays */
+ /* .sticky-header {
+    /* text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    z-index: 1000; */
+    /* position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000; */
+
+
+.sticky-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+/* home page formatting */
+
+
+.home-content {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    /* max-width: 800px; Set maximum width of container */
+    padding: 20px;/* Add padding for spacing */
+    padding-top:130px;
+}
+
+
+.profile-pic {
+
+    margin-right: 50px; /* Adjust spacing between image and content */
+
+}
+
+.home-img {
+    border: 6px solid #2a45de; /* Add purple border */
+    border-radius: 15px; /* Round the corners */
+    overflow: hidden;
+    display: block; /* Ensure the image fills the container */
+
+}
+
+
+.content {
+    text-align: center; /* Center text */
+    max-width: 40%;
+}
+
+/* projects and experiences section */
+
+.pe-section {
+    padding-top: 150px;
+}
+
+.projects-and-experiences {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.image-link {
+    position: relative; /* Ensure overlay is positioned relative to this */
+    margin: 0 2%; /* Adjust spacing between images */
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2a45de;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.image-link:hover .overlay {
+    opacity: 1;
+}
+
+/* projects page */
+
+.pe-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pe-box {
+    position: relative;
+    margin: 10px;
+    width: calc(25% - 20px); /* Adjust width for 4 boxes per row with margin */
+    max-width: 300px; /* Adjust maximum width as needed */
+    text-align: center;
+    overflow: hidden; /* Hide overflow content (the image) */
+}
+
+.pe-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust overlay color and opacity */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease;
+}
+
+.pe-box:hover .pe-overlay {
+    opacity: 1; /* Show overlay on hover */
+}
+
+.cover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease;
+}
+
+.pe-box:hover .cover-image {
+    opacity: 0.4; /* Show image on hover */
+}
+
+/* Skills section home page */
+.skills-section {
+    padding-top: 100px;
+}
+
+/* Timeline css */
+
+/* Source: https://blog.bitsrc.io/how-to-create-a-timeline-with-pure-css-862ffea5b99b */
+
+.timeline {
+    padding-top: 200px;
+ }
+
+.home-title-header {
+    font-style: italic;
+}
+
+.timeline-wrapper {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    height: 300px;
+  }
+
+  .timeline-wrapper .middle-line {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #2a45de;
+  }
+
+  .box {
+    width: 14%; /* change depending on number of elements, this is set to 6 */
+    position: relative;
+    min-height: 300px;
+    float: right;
+  }
+
+  .box .date {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #fff;
+    border: 2px solid #d9d9d9;
+  }
+  .date p {
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 0px;
+  }
+
+  .box .box-content {
+    border-radius: 5px;
+    background-color: #2a45de;
+    width: 140px;
+    position: absolute;
+    left: -77px;
+    padding: 15px;
+  }
+  .box-content p {
+    margin: 0;
+    color: white;
+  }
+
+  .box-bottom .box-content {
+    top: 65%;
+  }
+
+  /* Project and Experiences Spec pages */
