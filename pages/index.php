@@ -50,13 +50,13 @@
 </div>
 
 <!-- Skills section -->
-<div class="skills-section" id="skills-anchor">
+<!-- <div class="skills-section" id="skills-anchor">
     <h1 class="home-title-header">Here are a few of my skills</h1>
 
 
 
 
-</div>
+</div> -->
 
 <!-- Timeline section -->
 
